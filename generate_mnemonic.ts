@@ -1,3 +1,8 @@
+/*
+just saves the mnemonic: npx ts-node generate_mnemonic.ts > testnet.user.mnemonic.key 
+you need the cosmos address to get access to the faucet in discord: npm run generate
+*/
+
 import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing"
 
 // You need a wallet address on the testnet and you must create a 24-word mnemonic in order to do so. CosmJS can generate one for you. 
