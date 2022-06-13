@@ -57,7 +57,7 @@ const userDelegate = async(): Promise<void> => {
             validatorAddress: faucet,
             amount: { denom: "uatom", amount: "1000", },
         },
-}
+    }
 
     // define fee
     const fee = {
